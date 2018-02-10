@@ -44,7 +44,7 @@ public class CorrectionView extends HorizontalLayout implements View {
 		Button button = new Button("Créer");
 		button.setClickShortcut(KeyCode.ENTER);
 		button.setStyleName(ValoTheme.BUTTON_PRIMARY);
-//		button.setStyleName("blue"); .v-button-blue
+//		button.setStyleName("blue"); // css rule .v-button-blue
 		button.addClickListener(event -> {
 			
 //			if (nameField.isEmpty() || countryField.isEmpty() || birthDateField.isEmpty()) {
